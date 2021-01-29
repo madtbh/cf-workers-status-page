@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: status-vzxo-net # unique identifier
     name: status.vzxo.net
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'Server Status' # default=empty
     url: 'https://status.vzxo.net/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -25,7 +25,7 @@ monitors:
 
   - id: 8-8-8-8
     name: 'Google DNS'
-    description: 'Built for anything connected to the Internet.'
+    description: 'Googles DNS'
     url: 'https://8.8.8.8'
     method: GET
     expectStatus: 200
