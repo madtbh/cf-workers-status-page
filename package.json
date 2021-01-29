@@ -1,7 +1,7 @@
 {
-  "name": "cf-workers-status-page",
+  "name": "status",
   "version": "1.0.0",
-  "author": "Adam Janiš <adam.janis@gmail.com>",
+  "author": "",
   "license": "MIT",
   "main": "index.js",
   "private": true,
